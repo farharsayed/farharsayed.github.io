@@ -1,35 +1,48 @@
 /* General Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f0f4f8; /* Light background */
+  color: #333; /* Dark text for contrast */
 }
 
 header {
-  background-color: #333;
+  background: linear-gradient(90deg, #3498db, #9b59b6); /* Gradient for header */
   color: white;
-  padding: 10px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f39c12; /* Highlighted link color */
 }
 
 section {
-  margin: 50px;
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for sections */
 }
 
 footer {
@@ -50,15 +63,22 @@ footer {
 }
 
 .project-card {
-  background-color: white;
+  background-color: #fefefe;
   border: 1px solid #ddd;
   padding: 20px;
   margin: 10px;
   width: 30%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card h3 {
-  margin: 0 0 10px 0;
+  color: #3498db;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
