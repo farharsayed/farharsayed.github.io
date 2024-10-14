@@ -10,6 +10,26 @@ const workexp = [
   { title: "Quantum Ventura", description: "la"}
 ];
 
+const workexpContainer = document.getElementById('workexp-container');
+
+workexp.forEach(workexp => {
+  const weCard = document.createElement('div');
+  weCard.classList.add(we-card');
+
+  const weTitle = document.createElement('h3');
+  weTitle.textContent = workexp.title;
+
+  const weDesc = document.createElement('p');
+  weDesc.textContent = workexp.description;
+
+  weCard.appendChild(weTitle);
+  weCard.appendChild(weDesc);
+
+  workexpContainer.appendChild(weCard);
+});
+
+
+
 const projectsContainer = document.getElementById('projects-container');
 
 projects.forEach(project => {
