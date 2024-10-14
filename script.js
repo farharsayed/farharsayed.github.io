@@ -1,7 +1,7 @@
 // JavaScript for dynamically adding projects
 const projects = [
   { title: "Proactive Autoscaling in Kubernetes", description: "Virtualization, Containerization, Cloud Computing, Kubernetes, Autoscaling" },
-  { title: "WIP", description: "Another awesome project on the way!." },
+  { title: "WIP", description: "Another awesome project on the way!." }
 ];
 
 const workexp = [
