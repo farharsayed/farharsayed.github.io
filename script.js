@@ -1,8 +1,7 @@
 // JavaScript for dynamically adding projects
 const projects = [
-  { title: "Project 1", description: "This is a cool project." },
-  { title: "Project 2", description: "Another awesome project." },
-  { title: "Project 3", description: "Yet another project!" }
+  { title: "Proactive Autoscaling in Kubernetes", description: "Virtualization, Containerization, Cloud Computing, Kubernetes, Autoscaling" },
+  { title: "WIP", description: "Another awesome project on the way!." },
 ];
 
 const workexp = [
