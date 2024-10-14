@@ -5,6 +5,11 @@ const projects = [
   { title: "Project 3", description: "Yet another project!" }
 ];
 
+const workexp = [
+  { title: "BGC Group/ Cantor Fitzgerald", description: "I completed a DevOps-oriented internship here this summer as a technology (infrastructure) intern in the UNIX team."},
+  { title: "Quantum Ventura", description: "la"}
+];
+
 const projectsContainer = document.getElementById('projects-container');
 
 projects.forEach(project => {
