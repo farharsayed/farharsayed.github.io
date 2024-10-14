@@ -11,9 +11,9 @@ const workexp = [
 
 const workexpContainer = document.getElementById('workexp-container');
 
-workexp.forEach(workexp => {
+workexps.forEach(workexp => {
   const weCard = document.createElement('div');
-  weCard.classList.add(we-card');
+  weCard.classList.add('we-card');
 
   const weTitle = document.createElement('h3');
   weTitle.textContent = workexp.title;
