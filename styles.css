@@ -7,24 +7,14 @@ body {
   color: #333; /* Dark text for contrast */
 }
 
-/*header {
-  background: linear-gradient(90deg, #3498db, #9b59b6); /* Gradient for header */
-/*  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-*/
-
 header {
-  background: rgba(0, 0, 0, 0.5); /* Transparent background */
+  background-image: url('images/pic1.jpg'); /* custom pic - pic1 */
+  background-size: cover; /*image covers entire header */
+  background-position: center; /*centers the image*/
+  height: 400px;  
   color: white;
-  padding: 20px 0;
+  position: relative;
   text-align: center;
-  text-transform: uppercase;
-  font-family: 'Arial', sans-serif;
-  font-size: 28px;
-  letter-spacing: 4px;
-  border-bottom: 2px solid white; /* Underlined effect */
 }
 
 
