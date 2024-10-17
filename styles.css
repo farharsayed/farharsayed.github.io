@@ -7,12 +7,27 @@ body {
   color: #333; /* Dark text for contrast */
 }
 
-header {
+/*header {
   background: linear-gradient(90deg, #3498db, #9b59b6); /* Gradient for header */
-  color: white;
+/*  color: white;
   padding: 20px 0;
   text-align: center;
 }
+*/
+
+header {
+  background: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  border-bottom: 2px solid white; /* Underlined effect */
+}
+
+
 
 nav ul {
   list-style-type: none;
