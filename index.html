@@ -39,8 +39,45 @@
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
     </div>
-
 </nav>
+
+<section id="profile">
+    <!-- PFP -->
+    <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Farha Sayed Profile Picture">
+    </div>
+    <div class="section__text">
+        <p class=""section__text__p1>
+            Hello, I'm
+        </p>
+        <h1 class="title">Farha Sayed</h1>
+        <p class="section__text__p2">Recent Graduate</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2"
+                onclick="window.open('./assets/Farha-CV.pdf')">
+            Download CV
+            </button>
+            <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+            Contact Me!
+            </button>
+        </div>
+
+        <div id="socials-container">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/farha-sayed/'">
+            <img src="./assets/github.png" alt="My Github profile"
+            class="icon" onclick="location.href='https://github.com/farharsayed'">
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
