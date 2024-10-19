@@ -1,74 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal Portfolio of Farha Sayed">
-  <title>Farha Sayed's Personal Website</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-  <!-- Header Section -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <h1>Welcome to my Portfolio Page!</h1>
-  </header>
-
-  <!-- Home Section -->
-  <section id="home">
-    <h2>Home</h2>
-    <p>Hi! I'm glad you're here. Find some of my experiences and skills below!</p>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm Farha, an aspiring engineer and technology enthusiast.</p>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div id="projects-container">
-      <!-- JavaScript will populate this section -->
+    <!-- title and menu header -->
+    <nav id="desktop-nav"> 
+    <div class="logo">Farha Sayed</div>
+    <div>
+        <ul class="nav-links"> 
+            <!-- unordered list above -->
+             <!-- list elements below -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-  </section>
-
-
-
-  <! -- Work Experiences -->
-  <section id = "workexp">
-    <h2>Work Experience</h2>
-    <div id="workexp-container">
+</nav>
+<!-- hamburger menu -->
+<nav id="hamburger-nav">
+    <div class="logo">Farha Sayed</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <!-- below are the lines of the hamburger menu -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
     </div>
-  </section>
 
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Leave me a message!</h2>
-    <form id="contact-form">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Submit</button>
-    </form>
-  </section>
-
-  <script src="script.js"></script>
+</nav>
+    <script src="script.js"></script>
 </body>
 </html>
-
