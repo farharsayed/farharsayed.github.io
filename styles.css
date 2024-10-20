@@ -9,6 +9,7 @@
 * { 
     margin: 0;
     padding: 0;
+    cursor: default;
 }
 
 body {
@@ -230,9 +231,9 @@ a:hover {
     text-align: center;
   }
 
-  .section__text p {
+  .section__text__p1 {
     
-    font-weight: 600;
+     font-weight: 600;
   }
 
   .section__text__p1 {
@@ -240,12 +241,11 @@ a:hover {
   }
   .section__text__p2 {
     
-    font-size: 1.75rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
   .title {
-    
     font-size: 3rem;
     text-align: center;
   }
@@ -315,12 +315,14 @@ a:hover {
 
 #about {
     position: relative;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    gap: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .about-details-container {
@@ -335,9 +337,10 @@ a:hover {
 
 
 .about-pic {
-    border-radius: 2rem;
+    border-radius: 5rem;
     /* /* border-radius: 10%; */
-    margin-left: 10%; 
+    /* margin-left: 20%; 0 */
+    margin: 2rem;
 }
 
 .arrow {
@@ -348,7 +351,7 @@ a:hover {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 1rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -374,6 +377,8 @@ a:hover {
 
 #experience {
     position: relative;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .experience-sub-title {
@@ -387,9 +392,11 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 2rem;
 }
 
 .article-container {
+    padding: 1rem;
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -407,13 +414,15 @@ article {
 }
 
 article.icon {
-    cursor: default;   
+    /* cursor: default;    */
 }
 
 /* PROJECTS SECTION */
 
 #projects {
     position: relative;
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
   
   .color-container {
@@ -470,12 +479,32 @@ article.icon {
   }
   
   .contact-icon {
-    cursor: default;
   }
   
-  .email-icon {
+  .email-icon, .linkedin-icon {
     height: 2.5rem;
   }
+
+   
+  .email-icon,:hover,
+  .linkedin-icon:hover{
+    cursor: pointer;
+    /* gap: 1rem; */
+  }
+
+  .email-text,
+  .linkedin-text {
+    color: black;
+    align-self: center;
+    text-align: center;
+ 
+     font-weight: 600;
+    text-align: center;
+
+  }
+ 
+
+  
   
   /* FOOTER SECTION */
   
