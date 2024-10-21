@@ -220,6 +220,7 @@ a:hover {
     /* margin 0 top and bottom and 10 on sides */
     box-sizing: border-box;
     min-height: fit-content;
+  
   }
 
   .section-container {
@@ -232,9 +233,16 @@ a:hover {
 
   #profile {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 5rem;
     height: 80vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* margin-right: 5rem; 
+    margin-left: 8rem;  */
+    /* padding-right: 5rem;  */
+    
+     
   }
   
 
@@ -244,6 +252,7 @@ a:hover {
     height: 400px;
     width: 400px;
     margin: auto 0;
+    
   }
 
   .section__text {
@@ -284,6 +293,17 @@ a:hover {
   .icon {
     cursor: pointer;
     height: 2rem;
+    
+  }
+
+  .firstarrow {
+    position: relative;
+    /* absolutw to first relative parent it comes across? */
+    /* right: 0rem; */
+    bottom: -90%;
+    cursor: pointer;
+    height: 2rem;
+    padding-left: 11%;
   }
 
 
@@ -337,9 +357,11 @@ a:hover {
 #about {
   position: relative;
   padding-top: 5rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  /* justify-content: center; */
 }
+
 
 
 .about-containers {
@@ -401,8 +423,10 @@ a:hover {
 
 #experience {
   position: relative;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  margin-right: 5%;
+  margin-left: 5%;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
 }
 
 .experience-sub-title {
@@ -434,7 +458,7 @@ a:hover {
 }
 
 article {
-  display: flex;
+  /* display: flex; */
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
@@ -465,6 +489,8 @@ article.icon {
 
 #projects {
     position: relative;
+    margin-right: 5%;
+    margin-left: 5%;
     /* margin-right: 5rem;
     margin-left: 5rem; */
   }
