@@ -296,15 +296,15 @@ a:hover {
     
   }
 
-  .firstarrow {
-    position: relative;
+  /* .firstarrow {
+    position: fixed;
     /* absolutw to first relative parent it comes across? */
     /* right: 0rem; */
     bottom: -90%;
     cursor: pointer;
     height: 2rem;
     padding-left: 11%;
-  }
+  } */
 
 
   /* BUTTONS */
