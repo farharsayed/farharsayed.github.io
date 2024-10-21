@@ -29,6 +29,26 @@ p {
 
 
 
+/* HEADER */
+
+/* Header Styling */
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: #013e01;
+  /* opacity: 50%; */
+  color: rgb(238, 238, 214);
+  text-align: center;
+  /* margin-bottom: 100rem; */
+  padding: -50px 0;
+  /* height: 100px; */
+  transition: background-color 0.3s ease, opacity 0.3s ease, height 0.3s ease;
+  z-index: 100;
+  opacity: 1;
+}
+
+
+
 
 /* TRANSITION */
 
@@ -52,7 +72,7 @@ nav, .nav-links {
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
     /* vh = view height, 17% of whole screen, decided for any screen you open it on */
 }
 
@@ -65,7 +85,8 @@ nav {
 
 
 a {
-    color: black;
+  color: black;
+  /* rgb(238, 238, 214); */
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -361,6 +382,7 @@ a:hover {
   border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163,163,163);
   text-align: center;
+  margin: 2rem;
 }
 
 .section-container {
@@ -426,6 +448,9 @@ article.icon {
   margin: 0rem;
   gap: 0rem;
 }
+.experience-low-text {
+  padding-bottom: 1rem;
+}
 
 
 
@@ -446,6 +471,7 @@ article.icon {
   .color-container {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
+    
   }
   
   .project-img {
@@ -467,13 +493,16 @@ article.icon {
   /* CONTACT */
   
   #contact {
+    color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
   }
   
   .contact-info-upper-container {
+    color: black;
     display: flex;
     justify-content: center;
     border-radius: 2rem;
@@ -485,6 +514,7 @@ article.icon {
   }
   
   .contact-info-container {
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -497,10 +527,14 @@ article.icon {
   }
   
   .contact-icon {
+    color: black;
   }
   
-  .email-icon, .linkedin-icon {
+  .email-icon{
     height: 2.5rem;
+  }
+  .linkedin-icon {
+    height: 2rem;
   }
 
    
