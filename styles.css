@@ -110,6 +110,32 @@ a:hover {
 }
 
 
+.section__pic-container1 {
+  display: flex;
+  
+  justify-content: flex-end;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  margin-left: 5rem;
+
+}
+
+
+.about-pic {
+  border-radius: 0rem;
+  /* /* border-radius: 10%; */
+  /* margin-left: 20%; 0 */
+  margin: 0;
+  /* margin-left: 5rem; */
+  /* display: flex; */
+  /* border-radius: 50px; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* width: 400px; */
+  /* margin: auto 0; */
+}
 
 
 
@@ -249,16 +275,19 @@ a:hover {
   .section__pic-container {
     display: flex;
     /* border-radius: 50px; */
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    /* height: 400px;
+    width: 400px; */
+    justify-content: flex-end;
+    /* margin: auto 0; */
+    /* margin-right: 5rem; */
     
   }
 
   .section__text {
     
     align-self: center;
-    text-align: center;
+    text-align: left;
+    margin-left: 5rem;
   }
 
   .section__text__p1 {
@@ -300,11 +329,11 @@ a:hover {
     position: fixed;
     /* absolutw to first relative parent it comes across? */
     /* right: 0rem; */
-    bottom: -90%;
+    /* bottom: -90%;
     cursor: pointer;
     height: 2rem;
     padding-left: 11%;
-  } */
+  }  */
 
 
   /* BUTTONS */
@@ -357,15 +386,24 @@ a:hover {
 #about {
   position: relative;
   padding-top: 5rem;
-  margin-right: 5%;
-  margin-left: 5%;
-  /* justify-content: center; */
+  /* margin-right: 5%;
+  margin-left: 5%; */
+  margin: 0 auto;
+  width: 90%;
 }
 
+.about-pic2 {
+  width: 350px; /* Set the desired width */
+  height: 350px; /* Set the height equal to the width */
+  /* border-radius: 50%; 
+  object-fit: cover; 
+   margin: 0 auto; 
+  display: block;  */
 
+}
 
 .about-containers {
-  gap: 5rem;
+  gap: 1rem;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
@@ -381,12 +419,7 @@ a:hover {
 }
 
 
-.about-pic {
-  border-radius: 5rem;
-  /* /* border-radius: 10%; */
-  /* margin-left: 20%; 0 */
-  margin: 2rem;
-}
+
 
 .arrow {
   position: absolute;
@@ -409,8 +442,12 @@ a:hover {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 2rem;
   height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .section__pic-container {
