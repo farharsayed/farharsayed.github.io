@@ -662,6 +662,7 @@ article:hover {
  .project-img {
   height: 50px;
   padding-left: 3.2rem;
+  padding-right: 3.2rem;
   width: 100%;
   display: block; 
   /* Ensure the image is treated as a block-level element */
