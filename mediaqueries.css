@@ -66,6 +66,13 @@
   gap: 1rem;
 }
 
+.project-img {
+  padding-left: 100%;
+  padding-right: 100%;
+  border-radius: 0;
+  align-self: center;
+}
+
 
   }
   
@@ -121,6 +128,12 @@
     .text-container {
       text-align: justify;
     }
+
+
+
+
+
+
   }
 
 

@@ -744,6 +744,7 @@ article img.icon {
     /* width: 90%;
     height: 90%; */
     /*  */
+      
     width: 100%; /* Ensure images stretch to fit the container width */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
