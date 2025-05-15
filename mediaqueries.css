@@ -1,6 +1,18 @@
 /* for animated nav-title on hover Farha R Sayed */
 
 @media (max-width: 768px) {
+    * {
+        max-width: 120%;
+        font-size: smaller;
+    }
+    .header-svg svg {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 80vh;
+    }
     .nav-title {
         font-size: 1.5rem;
     }
@@ -8,11 +20,35 @@
         transform: scale(1.2);
     }
     /* for animated intro-text2 on hover title Farha R Sayed */
-    .intro-text2 {
-        font-size: 1.5rem;
+    .intro-text1,
+    .intro-text2 span {
+        font-size: 2rem;
     }
     .intro-text2:hover span {
         transform: scale(1.2);
+    }
+    .home-leftside {
+        padding-top: 8rem;
+        max-width: 90%;
+    }
+    .home-rightside {
+        margin-top: -5rem;
+    }
+    .intro-text1 {
+        margin-bottom: 0.5rem;
+    }
+    .intro-text {
+        /* justify-content: center; */
+        text-align: center;
+    }
+    .intro-text3 {
+        padding-bottom: 1rem;
+    }
+    .home-btns {
+        padding: 3rem;
+    }
+    #home {
+        flex-direction: column;
     }
     /* for all animated titles */
     .animated-title {
@@ -27,6 +63,9 @@
     }
     .exp-title2:hover span {
         transform: scale(1.2);
+    }
+    .year-selector {
+        gap: 1rem;
     }
     /* skills */
     .mindmap-container {
@@ -82,6 +121,9 @@
     nav {
         justify-content: space-between;
         padding: 0 2rem;
+    }
+    .footer-nav-link1 {
+        flex-direction: column;
     }
 }
 
@@ -142,6 +184,9 @@
 /* for animated nav-title on hover Farha R Sayed (max-width: 480px) */
 
 @media (max-width: 480px) {
+    * {
+        max-width: 100%;
+    }
     .nav-title {
         font-size: 1.2rem;
     }
