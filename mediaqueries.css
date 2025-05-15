@@ -59,7 +59,7 @@
     /* Show hamburger under 768px */
     .nav-links {
         position: absolute;
-        right: 6rem;
+        /* right: 6rem; */
         /* top: 10vh; */
         height: calc(100vh - 50vh);
         flex-direction: column;
