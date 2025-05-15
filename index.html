@@ -1,543 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3MQY2ZF4B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-D3MQY2ZF4B');
-</script>
+<head>
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mediaqueries.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 </head>
+
 <body>
 
 
-  <!-- <header id="header"> -->
+    <!-- <header id="header"> -->
     <header id="header">
-    <nav id="desktop-nav"> 
-        <div class="logo">Farha Sayed</div>
-        <div>
-            <ul class="nav-links"> 
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-  </header>
-<!-- </header> -->
-
-
-
-  
-<!-- hamburger menu -->
-<nav id="hamburger-nav">
-    <div class="logo">Farha Sayed</div>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-            <!-- below are the lines of the hamburger menu -->
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-    </div>
-</nav>
-<!-- hamburger menu -->
-
-<section id="profile">
-    <!-- PFP -->
-    <div class="section__pic-container1">
-      
-        <img src="./assets/about-pic3.png" alt="Profile Picture"
-            class="about-pic"/>
-    </div>
-    <div class="section__text">
-        <p class="section__text__p1">
-            Hello, I'm
-        </p>
-        <h1 class="title">Farha Sayed</h1>
-        <!-- <p class="section__text__p2">Recent Graduate</p> -->
-        <!-- <div class="about-details-container"> -->
-      <div class="section__text__p2">
-            <!-- <p>I have recently graduated with a BSc in Computer Science and Mathematics from the University of Leeds. </p> -->
-             <p>I'm interested in cloud computing, software development, and cybersecurity.</p>
-        <!-- </div> -->
-      </div>
-      <div class="btn-container">
-            <button class="btn btn-color-2"
-                onclick="window.open('./assets/Farha-CV.pdf')">
-            Download CV
-            </button>
-            <button class="btn btn-color-1"
-                onclick="location.href='./#contact'">
-            Contact Me!
-            </button>
-      </div>
-
-      <div id="socials-container">
-            <img src="./assets/linkedin.png" 
-            alt="My LinkedIn profile"
-            class="icon" 
-            onclick="location.href='https://www.linkedin.com/in/farha-sayed/'">
-            <img src="./assets/github.png" 
-            alt="My Github profile"
-            class="icon" 
-            onclick="location.href='https://github.com/farharsayed'">
-      </div>
-    </div>
-
-    <!-- <img src="./assets/arrow.png" 
-    alt="Arrow icon 1" 
-    class="firstarrow" 
-    onclick="location.href='./#about'">
-     -->
-</section>
-
-
-
-<section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-        <div class="section__pic-container">
-
-            
-            <img src="./assets/profile-pic-3.png" alt="Farha Sayed Profile Picture"
-            class="about-pic2"/>
-
+        <div class="header-svg">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+        <defs>
+            <linearGradient id="bg">
+                <stop offset="0%" style="stop-color:#fe8b55"></stop>
+                <stop offset="50%" style="stop-color: #eee5cf"></stop>
+                <stop offset="100%" style="stop-color: #f981cd"></stop>
+            </linearGradient>
+            <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-15,505.475,0
+                s371.981,15,575.971,0
+                s293.985-15,505.474,5
+                s493.475,18,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+        <g>
+            <use xlink:href='#wave' opacity=".3">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="10s"
+                    calcMode="spline"
+                    values="270 230; -334 180; 270 230"
+                    keyTimes="0; .5; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".6">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="8s"
+                    calcMode="spline"
+                    values="-270 230;243 220;-270 230"
+                    keyTimes="0; .6; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".9">
+                <animateTransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    type="translate"
+                    dur="6s"
+                    calcMode="spline"
+                    values="0 230;-140 200;0 230"
+                    keyTimes="0; .4; 1"
+                    keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                    repeatCount="indefinite" />
+            </use>
+        </g>
+    </svg>
         </div>
 
-        <div class="about-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <img src="./assets/experience.png" alt="experience icon"
-                    class="icon"
-                    />
-                    <h3 >Recent Experience</h3>
-                    <p>BGC Group <br>Technology (Infrastructure) Intern, UNIX</p>
-                </div>
-                <div class="details-container">
-                    <img src="./assets/education.png" alt="education icon"
-                    class="icon"
-                    />
-                    <h3>Education</h3>
-                    <p>University of Leeds<br>BSc Computer Science and Maths (Hons.)</p>
-                </div>
+        </div>
+        <nav id="navbar">
+            <div class="nav-title">
+                <span>F</span><span>a</span><span>r</span><span>h</span><span>a</span>
+                <span> </span>
+                <!-- non-breaking space -->
+                <span>R</span>
+                <span> </span>
+                <!-- non-breaking space -->
+                <span>S</span><span>a</span><span>y</span><span>e</span><span>d</span>
             </div>
 
-           
-        </div>
-    </div>
-    <!-- <img src="./assets/arrow.png" 
-    alt="Arrow icon" 
-    class="icon arrow" 
-    onclick="location.href='./#experience'"> -->
-
-</section>
-
-<section id = "experience">
-
-
-  <p class="section__text__p1">Discover My</p>
-  <h1 class="title-work-section">Work Experience</h1>
-
-
-
-    <!-- work experience container -->
-    <div class="work-exp-cont">
-      <div class="work-exp-left">
-        <ul class="work-exp-list">
-          <li class="work-exp-item active" data-company="company1">Gulf Business Machines</li>
-          <li class="work-exp-item" data-company="company2">BGC Group | Cantor Fitzgerald</li>
-          <li class="work-exp-item" data-company="company3">Quantum Ventura</li>
-          <li class="work-exp-item" data-company="company4">Protiviti Global Business Consulting</li>
-        </ul>
-      </div>
-      <div class="work-exp-right">
-        <div id="company1" class="work-exp-details active">
-          <h3 class="work-exp-title">Gulf Business Machines</h3>
-          <p class="work-exp-location">Abu Dhabi, UAE | Present</p>
-          <p class="work-exp-desc">I am currently working here as a Junior Engineer, focusing on Security and Networks.</p>
-        </div>
-        <div id="company2" class="work-exp-details">
-          <h3 class="work-exp-title">BGC Group | Cantor Fitzgerald</h3>
-          <p class="work-exp-location">London, UK | JULY - SEPT 2024</p>
-          <p class="work-exp-desc">As a Technology (Infrastructure) Intern in the UNIX team, I contributed to the development, deployment, and enhancement of critical systems supporting observability and infrastructure management.</p>
-          <p class="title-of-work-list">Some of my main achievements here were:</p>
-          <ul class="work-list"> 
-            <li>Designed the migration of the observability stack from a monolithic architecture to a cloud-agnostic microservices-based solution deployed on Red Hat OpenShift.</li> 
-            <li>Implemented and deployed key infrastructure and log management tools, including Prometheus, Promtail, Grafana, Loki, Mimir, and OpenTelemetry.</li> 
-            <li>Customized Docker images to comply with enterprise security policies and platform-specific configurations.</li> 
-            <li>Conducted knowledge-sharing sessions introducing Kubernetes, Helm charts, and OpenShift, educating 15–20 team members through practical demos.</li> 
-            <li>Collaborated with the team to maintain and optimize CentOS and Rocky Linux servers to ensure system stability and performance.</li> 
-            <li>Researched and evaluated the Java JMX Exporter to monitor and expose application metrics for observability improvements.</li> 
-            <li>Utilized Nexus and Vault for effective artifact storage and secure secret management.</li> 
-            <li>Gained hands-on experience with PostgreSQL architecture, GitLab CI/CD pipelines, and automation workflows using Ansible AWX.</li> 
-          </ul>
-        </div>
-        <div id="company3" class="work-exp-details">
-          <h3 class="work-exp-title">Quantum Ventura</h3>
-          <p class="work-exp-location">Dubai, UAE | JUNE - AUG 2022</p>
-          <p class="work-exp-desc">At Quantum Ventura, I collaborated with a team of five to launch an NDR/EDR product designed to monitor, detect, and visualize security threats.</p>
-          <p class="title-of-work-list">Some of my main achievements here were:</p>
-          <ul class="work-list"> 
-            <li>Developed and implemented a strategy for the launch of a cutting-edge Network Detection and Response (NDR) and Endpoint Detection and Response (EDR) product, enhancing threat monitoring and visualization capabilities.</li> 
-            <li>Evaluated and tested key technologies, including Apache Flink, Kafka, Zeek, and Elasticsearch, to determine the most effective solutions for product functionality and scalability.</li> 
-            <li>Conducted in-depth market analysis to identify target segments and position the product strategically within a competitive cybersecurity landscape.</li> 
-            <li>Conceptualized 10–15 innovative dashboard features tailored to diverse user roles, such as IT administrators and senior leadership, optimizing usability and decision-making processes.</li> 
-          </ul>
-        </div>
-        <div id="company4" class="work-exp-details">
-          <h3 class="work-exp-title">Protiviti Global Business Consulting</h3>
-          <p class="work-exp-location">Dubai, UAE | JULY - OCT 2020</p>
-          <p class="work-exp-desc">Here, I built a strong foundation in cybersecurity and networking fundamentals through hands-on learning and research.</p>
-          <p class="title-of-work-list">Some of my main achievements here were:</p>
-          <ul class="work-list"> 
-            <li>Acquired in-depth knowledge of cybersecurity principles and network architecture, focusing on the foundational elements of secure systems.</li> 
-            <li>Explored the functionality of network layers, gaining a clear understanding of data transmission processes between machines and their role in communication protocols.</li> 
-            <li>Conducted research on diverse cyber threats, including DDoS attacks, injection vulnerabilities, password breaches, XSS attacks, backdoors, and ransomware, enhancing awareness of threat vectors and mitigation strategies.</li> 
-          </ul>
-        </div>
-      </div>
-    </div>
-    
-
-</section>
-
-<section id="skills">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Skills</h1>
-    <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container">
-                <h2 class="experience-sub-title">DevOps</h2>
-                <div class="article-container">
-
-                      <!-- open article -->
-                      <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>AWS</h3>
-                            <p>Certified</p>
-                        </div>
-                    </article>
-                    <!-- close article -->
-
-                           <!-- open article -->
-                           <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon">
-                            <div class = "experience-text">
-                                <h3>Linux</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <!-- close article -->
-                         
-                  <!-- open article -->
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Kubernetes</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <!-- close article -->
-
-                       <!-- open article -->
-                       <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Docker</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <!-- close article -->
-
-
-                
-
-             
-                    <!-- open article -->
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Red Hat OpenShift</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <!-- close article -->
-
-                
-                    <!-- open article -->
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>CI/CD</h3>
-                            <p>Beginner</p>
-                        </div>
-                    </article> 
-                    <!-- close article -->
-
-              </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <!-- <li><a href="#skills">Skills</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-        
-      
+        </nav>
+    </header>
+    <!-- </header> -->
+    <section id="home">
+        <div class="home-leftside">
+            <img src="./assets/pfp.jpg" alt="Profile Picture" class="pfp" />
+        </div>
+        <div class="home-rightside">
+            <div class="intro-text">
 
-<!-- SKILLS -->
-            <div class="details-container">
-                <h2 class="experience-sub-title">Software Development</h2>
-                <div class="article-container">
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Java</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Python</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>C</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Git</h3>
-                            <p>Experienced</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>SQL</h3>
-                            <p>Intermediate</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="./assets/checkmark.png" 
-                        alt="Experience icon"
-                        class="icon">
-                        <div class = "experience-text">
-                            <h3>Web Dev</h3>
-                            <p>Basic</p>
-                        </div>
-                    </article>
+                <p class="intro-text1">
+                    Hey there! I'm
+                </p>
+                <div class="intro-text2">
+
+                    <div class="intro-text2">
+                        <span style="--index: 1;">F</span>
+                        <span style="--index: 2;">a</span>
+                        <span style="--index: 3;">r</span>
+                        <span style="--index: 4;">h</span>
+                        <span style="--index: 5;">a</span>
+                        <span style="--index: 6;"> </span>
+                        <!-- <span style="--index: 7;">R</span>
+                        <span style="--index: 8;"> </span> -->
+                        <span style="--index: 9;">S</span>
+                        <span style="--index: 10;">a</span>
+                        <span style="--index: 11;">y</span>
+                        <span style="--index: 12;">e</span>
+                        <span style="--index: 13;">d</span>
+                    </div>
+
+                </div>
+                <!-- <p class="section__text__p2">Recent Graduate</p> -->
+                <!-- <div class="about-details-container"> -->
+                <div class="intro-text3">
+                    <!-- <p>I have recently graduated with a BSc in Computer Science and Mathematics from the University of Leeds. </p> -->
+                    <p>a recent grad curious about the logic and layers behind it all</p>
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="home-btns">
+                <!-- <button class="home-btn1" onclick="window.open('./assets/Farha-CV.pdf')">
+                Download CV
+              </button> -->
+                <button class="home-btn2" onclick="location.href='mailto:farhasayed29@gmail.com'">
+                Say hi!
+              </button>
+            </div>
+
+            <div id="socials-icons">
+                <a href="https://www.linkedin.com/in/farha-sayed/" target="_blank">
+                    <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon">
+                </a>
+                <a href="https://github.com/farharsayed/" target="_blank">
+                    <img src="./assets/github.png" alt="My Github profile" class="icon">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- scrolling arrow -->
+        <div class="scroll-indicator" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+            <span class="arrow"></span>
+        </div>
+
+    </section>
+
+
+
+    <section id="about">
+        <div class="about-title">
+            <div class="animated-title">
+                <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span>
+                <span> </span>
+                <span>M</span><span>e</span>
+            </div>
+        </div>
+        <div class="about-parts">
+            <div class="about-left">
+                <p class="about-text1">
+                    I am currently working as a Cybersecurity and Infrastructure Engineer at <a href="https://www.gbmme.com/" target="_blank" class="gbm-button">Gulf Business Machines</a>. Last year, I graduated from the
+                    <a href="https://www.leeds.ac.uk/about#main" target="_blank" class="leeds-button">University of Leeds
+                    </a> with a BSc in Computer Science and Mathematics.
+                </p>
+                <p class="about-text3">
+                    My journey in tech isn't limited to just one path. I'm passionate about cloud computing, software development, cybersecurity, and everything in between. I'm fascinated by how each of these fields intersect with one another to facilitate large impactful
+                    projects.
+                </p>
+                <p class="about-text2">
+                    Off my PC? I'm all about balance. You'll find me chasing that next PR at the gym, cheering on Ferrari as it DNF's yet another F1 Grand Prix, or trying to stop my goofy cat from rampaging around the house.
+                </p>
+
+            </div>
+
+            <div class="about-right">
+
+                <div class="about-pic">
+                    <img src="./assets/about-image1.jpg" alt="About Picture" class="about-pic1" />
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- scrolling arrow -->
+        <div class="scroll-indicator" onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth' })">
+            <span class="arrow"></span>
+        </div>
+
+    </section>
+
+
+
+
+    <section id="experience">
+        <div class="exp-title">
+            <!-- <p class="exp-title1">
+                Discover My
+            </p> -->
+            <div class="exp-title2">
+                <span>W</span><span>o</span><span>r</span><span>k</span>
+                <span> </span>
+                <span>E</span><span>x</span><span>p</span><span>e</span><span>r</span><span>i</span><span>e</span><span>n</span><span>c</span><span>e</span>
+            </div>
+        </div>
+        <!-- end of exp title -->
+
+        <!-- exp content -->
+
+        <div id="experience-content">
+
+            <div class="exp-left">
+                <img id="exp-image" class="experience-image" src="./assets/exp-pic1.jpg" alt="Experience Image">
+            </div>
+
+            <div class="exp-right">
+                <div id="exp-title-jobs" class="exp-title-jobs">Cybersecurity and Infrastructure Engineer - Gulf Business Machines</div>
+                <div id="exp-dates" class="exp-dates">Nov 2024 - Present</div>
+                <div id="exp-description" class="experience-description">
+                    <ul>
+                        <li>Provided solutions for endpoint, network and server security to customers across the city.</li>
+                        <li>Collaborated with vendors to implement products such as Trend Micro XDR/EDR and ASM, FortiSASE, BeyondTrust PRA and Cisco User Protection Suite.</li>
+                        <li>Worked on agent installation over 15,000 endpoints and servers across multiple environments via Ansible.</li>
+                        <li>Managed Nutanix Kubernetes Platform (NKP) infrastructure in an airgapped environment, troubleshooting 15 nodes across multiple clusters.</li>
+                        <li>Coordinated with customers and project managers over the full project life cycle, following best practices for project planning, automated implementation, risk mitigation and thorough documentation.</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
 
-
-
-    <!-- <img 
-    src="./assets/arrow.png" 
-    alt="Arrow icon" 
-    class="icon arrow" 
-    onclick="location.href='./#projects'"
-    /> -->
-</section>
-
-
-<!-- PROJECTS -->
-</section>
-<section id="projects">
-  <p class="section__text__p1">Browse My Recent</p>
-  <h1 class="title">Projects</h1>
-  <div class="experience-details-container">
-    <div class="about-containers">
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/project-1.png"
-            alt="Project 1"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Proactive Autoscaling in Kubernetes</h2>
-        <p class="experience-low-text">Research Project</p> 
-        <div class="btn-container">
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="window.location.href='https://github.com/farharsayed/Farha-Sayed/tree/main/Kubernetes-Research-Project'"
-          >
-            Github
-          </button>
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="window.location.href='./assets/Dis-Summary.pdf'"
-          >
-            Project Summary
-          </button>
-        </div>
-      </div>
-
-
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/project-2.png"
-            alt="Project 2"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">Carpe Vitae Capital</h2>
-        <p class="experience-low-text">Financial Assets Webpage</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="location.href='https://github.com/farharsayed/Farha-Sayed/tree/main/Carpe-Vitae-Capital'"
-          >
-            Github
-          </button>
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="location.href='https://carpevitaecapital.com/'"
-          >
-            Website
-          </button>
-        </div>
-      </div>
-
-
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/project-4.png"
-            alt="Project 4"
-            class="project-img"
-          />
-        </div>
-        <h2 class="experience-sub-title project-title">AI & ML</h2>
-        <p class="experience-low-text">Leveraging AI for Real-World Impact</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="location.href='https://github.com/farharsayed/Farha-Sayed/tree/main/AI'"
-          >
-            More Info
-          </button>
-          <button
-            class="btn btn-color-3 project-btn"
-            onclick="window.location.href='./assets/New-Directions-in-AI.jpeg'"
-          >
-            2021 Conference
-          </button>
-        </div>
-      </div>
-
-      <!-- 
-      <div class="details-container color-container">
-        <div class="article-container">
-          <img
-            src="./assets/project-4.png"
-            alt="Project 4"
-            class="project-img"
-          />
+        <div class="year-selector">
+            <div class="year" data-year="2025">GBM</div>
+            <div class="year" data-year="2024">BGC Group</div>
+            <div class="year" data-year="2022">Quantum Ventura</div>
+            <div class="year" data-year="2020">Protiviti Global</div>
         </div>
 
-      </div>
-       -->
-    </div>
-  </div>
-  <!-- <img
-    src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#contact'"
-  /> -->
-</section>
-<section id="contact">
-  <p class="section__text__p1">Get in Touch</p>
-  <h1 class="title">Contact Me</h1>
-  <div class="contact-info-upper-container">
-    <!-- email -->
-    <div class="contact-info-container">
+        </div>
 
-          <img
-          src="./assets/email.png"
-          alt="Email icon"
-          class="email-icon"
-          onclick="location.href='mailto:farhasayed29@gmail.com'" 
-        />
-          <p class="email-text"></p><a href="mailto:farhasayed29@gmail.com">Email Me</a></p>
-         </div>
+        <!-- scrolling arrow -->
+        <div class="scroll-indicator" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+            <span class="arrow"></span>
+        </div>
 
-<!-- linkedin -->
-         <div class="contact-info-container">
 
-          <img
-          src="./assets/linkedin.png"
-          alt="LinkedIn icon"
-          class="linkedin-icon"
-          onclick="location.href='https://www.linkedin.com/in/farha-sayed/'" 
-        />
-          <p class="linkedin-text"></p><a href="https://www.linkedin.com/in/farha-sayed/">Connect on Linkedin</a></p>
-         </div>
 
-  </div>
-</section>
-<footer>
-  <nav>
-    <div class="nav-links-container">
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <!-- <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p> -->
-</footer>
-<script src="script.js"></script>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- skills -->
+    <!-- <section id="skills">
+        <div class="skills-title"> -->
+    <!-- <p class="skills-title1">
+                Check Out My
+            </p> -->
+    <!-- <div class="skills-title2">
+                <span>S</span><span>k</span><span>i</span><span>l</span><span>l</span><span>s</span>
+            </div>
+        </div> -->
+    <!-- end of exp title -->
+
+    <!-- 
+
+        <div class="mindmap-container">
+            <div class="skill-card" data-skill="redhat" data-index="0">
+                <img src="./assets/redhat.svg" alt="Red Hat" />
+            </div>
+            <div class="skill-card" data-skill="java" data-index="1">
+                <img src="./assets/java.svg" alt="Java" />
+            </div>
+            <div class="skill-card" data-skill="azure" data-index="2">
+                <img src="./assets/azure.svg" alt="Azure" />
+            </div>
+            <div class="skill-card" data-skill="gitlab" data-index="3">
+                <img src="./assets/gitlab.svg" alt="GitLab" />
+            </div>
+            <div class="skill-card" data-skill="C" data-index="4">
+                <img src="./assets/c.svg" alt="C" />
+            </div>
+            <div class="skill-card" data-skill="aws" data-index="5">
+                <img src="./assets/aws.svg" alt="AWS" />
+            </div>
+            <div class="skill-card" data-skill="css" data-index="6">
+                <img src="./assets/css.svg" alt="CSS" />
+            </div>
+            <div class="skill-card" data-skill="docker" data-index="7">
+                <img src="./assets/docker.svg" alt="Docker" />
+            </div>
+            <div class="skill-card" data-skill="html" data-index="8">
+                <img src="./assets/html.svg" alt="HTML" />
+            </div>
+            <div class="skill-card" data-skill="javascript" data-index="9">
+                <img src="./assets/javascript.svg" alt="JavaScript" />
+            </div>
+            <div class="skill-card" data-skill="openshift" data-index="10">
+                <img src="./assets/openshift.svg" alt="OpenShift" />
+            </div>
+            <div class="skill-card" data-skill="kubernetes" data-index="11">
+                <img src="./assets/kubernetes.svg" alt="Kubernetes" />
+            </div>
+            <div class="skill-card" data-skill="python" data-index="12">
+                <img src="./assets/python.svg" alt="Python" />
+            </div>
+            <div class="skill-card" data-skill="grafana" data-index="13">
+                <img src="./assets/grafana.svg" alt="Grafana" />
+            </div>
+            <div class="skill-card" data-skill="prometheus" data-index="14">
+                <img src="./assets/prometheus.svg" alt="Prometheus" />
+            </div>
+        </div>
+
+
+        <div class="skill-details" id="skillDetails">
+            <button id="closeBtn">×</button>
+            <h2 id="skillTitle"></h2>
+            <div id="skillText"></div>
+        </div> -->
+
+
+
+    <!-- scrolling arrow -->
+    <!-- <div class="scroll-indicator" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+        <span class="arrow"></span>
+    </div> -->
+
+
+
+
+
+    <!-- 
+    </section> -->
+
+
+
+
+
+    <section id="projects">
+        <div class="project-title">
+            <!-- <p class="project-title1">
+                Some of My
+            </p> -->
+            <div class="project-title2">
+                <span>P</span><span>e</span><span>r</span><span>s</span><span>o</span><span>n</span><span>a</span><span>l</span>
+                <span> </span>
+                <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span>
+            </div>
+        </div>
+
+
+        <!-- 3 project containers -->
+
+        <div class="project-containers">
+            <div class="project-cont1">
+
+                <!-- project1 image -->
+                <img src="./assets/proj-img1.png" alt="Project 1" class="project-img" />
+
+                <!-- project1 title -->
+                <h2 class="project1-title">Proactive Autoscaling in Kubernetes</h2>
+                <p class="project1-subtitle">Research Project</p>
+
+                <!-- project1 buttons -->
+                <div class="project-buttons">
+                    <a href="https://github.com/farharsayed/Farha-Sayed/tree/main/Kubernetes-Research-Project" target="_blank">GitHub</a>
+                    <a href="./assets/Farha-FYP-cover.pdf" target="_blank">Summary</a>
+                </div>
+
+            </div>
+            <div class="project-cont2">
+
+                <!-- project2 image -->
+                <img src="./assets/proj-img2.png" alt="Project 2" class="project-img" />
+
+                <!-- project2 title -->
+                <h2 class="project2-title">Microservices Migration Project</h2>
+                <p class="project2-subtitle">Observability Stack</p>
+
+                <!-- project2 buttons -->
+                <div class="project-buttons">
+                    <a href="https://github.com/farharsayed/Farha-Sayed/tree/main/Observability-Tools" target="_blank">GitHub</a>
+                    <!-- <a href="https://your-demo-link.com" target="_blank">Demo</a> -->
+                </div>
+
+            </div>
+            <div class="project-cont3">
+
+                <!-- project3 image -->
+                <img src="./assets/proj-img3.png" alt="Project 3" class="project-img" />
+
+                <!-- project3 title -->
+                <h2 class="project3-title">Artificial Intelligence and Machine Learning</h2>
+                <p class="project3-subtitle">Exploring the Field</p>
+
+                <!-- project3 buttons -->
+                <div class="project-buttons">
+                    <a href="https://github.com/farharsayed/Farha-Sayed/tree/main/AI" target="_blank">GitHub</a>
+                    <a href="./assets/New-Directions-in-AI.jpeg" target="_blank">Conference</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <!-- scrolling arrow -->
+        <div class="scroll-indicator" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+            <span class="arrow"></span>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section id="contact">
+
+        <div class="contact-title">
+            <!-- <p class="contact-title1">
+                Get in Touch
+            </p> -->
+            <div class="contact-title2">
+                <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span>
+                <span> </span>
+                <span>M</span><span>e</span>
+            </div>
+        </div>
+
+
+        <div class="contact-buttons">
+
+
+
+            <div class="contact-button1">
+
+                <img src="./assets/email.png" alt="Email icon" class="email-icon" onclick="location.href='mailto:farhasayed29@gmail.com'" />
+                <p class="email-text"></p><a href="mailto:farhasayed29@gmail.com">Email Me</a></p>
+            </div>
+
+            <!-- linkedin -->
+            <div class="contact-button2">
+
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="linkedin-icon" onclick="location.href='https://www.linkedin.com/in/farha-sayed/'" />
+                <p class="linkedin-text"></p><a href="https://www.linkedin.com/in/farha-sayed/">Connect on Linkedin</a></p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <!-- background start -->
+
+        <div class="footer-svg">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:#fe8b55"></stop>
+				<stop offset="50%" style="stop-color: #eee5cf"></stop>
+				<stop offset="100%" style="stop-color: #f981cd"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="10s"
+          calcMode="spline"
+          values="270 230; -334 180; 270 230"
+          keyTimes="0; .5; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".6">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="8s"
+          calcMode="spline"
+          values="-270 230;243 220;-270 230"
+          keyTimes="0; .6; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacty=".9">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="6s"
+          calcMode="spline"
+          values="0 230;-140 200;0 230"
+          keyTimes="0; .4; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+        </div>
+
+        <!-- background end -->
+        <nav>
+            <div class="footer-nav-links">
+                <ul class="footer-nav-link1">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <!-- <li><a href="#skills">Skills</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
