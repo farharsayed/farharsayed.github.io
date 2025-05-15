@@ -216,6 +216,9 @@
     .intro-text2:hover span {
         transform: scale(1.1);
     }
+    .pfp {
+        padding: 1rem;
+    }
     /* for all animated titles (max-width: 480px) */
     .animated-title {
         font-size: 2rem;
