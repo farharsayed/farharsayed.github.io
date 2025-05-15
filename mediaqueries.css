@@ -7,337 +7,83 @@
     .nav-title:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .nav-title {
-        font-size: 1.2rem;
-    }
-    .nav-title:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for the effect on nav-title on first loading the page */
-
-@keyframes scaleInNav {
-    0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: black;
-        /* red shade */
-    }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }
-}
-
-
-/* for animated intro-text2 on hover title Farha R Sayed */
-
-@media (max-width: 768px) {
+    /* for animated intro-text2 on hover title Farha R Sayed */
     .intro-text2 {
         font-size: 1.5rem;
     }
     .intro-text2:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .intro-text2 {
-        font-size: 1.2rem;
-    }
-    .intro-text2:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for the effect on intro-text2 on first loading the page */
-
-@keyframes scaleInIntro {
-    0% {
-        transform: scale(1);
-        color: inherit;
-        letter-spacing: 2px;
-    }
-    50% {
-        transform: scale(1.3);
-        color: #FF4F00;
-        letter-spacing: 4px;
-    }
-}
-
-
-/* for all animated titles */
-
-@media (max-width: 768px) {
+    /* for all animated titles */
     .animated-title {
         font-size: 1.5rem;
     }
     .animated-title:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .animated-title {
-        font-size: 1.2rem;
-    }
-    .animated-title:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for all animated titles  on first loading the page */
-
-@keyframes scaleInAbout {
-    /* 0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #e02440;
-        /* blue shade (or whatever you want) */
-    /* }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }  */
-    0% {
-        transform: scale(1);
-        color: inherit;
-        letter-spacing: 2px;
-    }
-    50% {
-        transform: scale(1.3);
-        color: #e02440;
-        letter-spacing: 4px;
-    }
-}
-
-
-/* end of animated title */
-
-
-/* about right side slideshow */
-
-@keyframes fade {
-    from {
-        opacity: 0.4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-
-/* end of about right side slideshow */
-
-
-/* animation of small arrow */
-
-@keyframes bounceDown {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateY(0) rotate(-45deg);
-    }
-    40% {
-        transform: translateY(6px) rotate(-45deg);
-        /* was 10px */
-    }
-    60% {
-        transform: translateY(3px) rotate(-45deg);
-        /* was 5px */
-    }
-}
-
-
-/* end of small arrow  */
-
-
-/* experience */
-
-@keyframes scaleInExperience {
-    0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #FF4F00;
-        /* blue shade (or whatever you want) */
-    }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }
-}
-
-@media (max-width: 768px) {
+    /* experience */
     .exp-title2 {
         font-size: 1.5rem;
     }
     .exp-title2:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .exp-title2 {
-        font-size: 1.2rem;
-    }
-    .exp-title2:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* skills */
-
-
-/* Responsive fallback if needed */
-
-@media (max-width: 768px) {
+    /* skills */
     .mindmap-container {
         grid-template-columns: repeat(2, 1fr);
     }
     .skill-card {
         transform: none !important;
     }
-}
-
-
-/* skills title */
-
-@media (max-width: 768px) {
+    /* skills title */
     .skills-title2 {
         font-size: 1.5rem;
     }
     .skills-title2:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .skills-title2 {
-        font-size: 1.2rem;
-    }
-    .skills-title2:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for all animated titles  on first loading the page */
-
-@keyframes scaleInSkills {
-    0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #e02440;
-        /* blue shade (or whatever you want) */
-    }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }
-}
-
-
-/* projects title*/
-
-@media (max-width: 768px) {
+    /* projects title */
     .project-title2 {
         font-size: 1.5rem;
     }
     .project-title2:hover span {
         transform: scale(1.2);
     }
-}
-
-@media (max-width: 480px) {
-    .project-title2 {
-        font-size: 1.2rem;
-    }
-    .project-title2:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for all animated titles  on first loading the page */
-
-@keyframes scaleInProjects {
-    0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #31a0f6;
-    }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }
-}
-
-
-/* contact title*/
-
-@media (max-width: 768px) {
+    /* contact title */
     .contact-title2 {
         font-size: 1.5rem;
     }
     .contact-title2:hover span {
         transform: scale(1.2);
     }
+    /* Show hamburger under 768px */
+    .nav-links {
+        position: absolute;
+        right: 6rem;
+        /* top: 10vh; */
+        height: calc(100vh - 50vh);
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        width: 100%;
+        gap: 3rem;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        background-color: white !important;
+        z-index: 9999;
+        position: fixed !important;
+    }
+    .nav-links.active {
+        transform: translateX(0);
+    }
+    .hamburger {
+        display: flex;
+    }
+    nav {
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
 }
-
-@media (max-width: 480px) {
-    .contact-title2 {
-        font-size: 1.2rem;
-    }
-    .contact-title2:hover span {
-        transform: scale(1.1);
-    }
-}
-
-
-/* for all animated titles  on first loading the page */
-
-@keyframes scaleInContact {
-    0% {
-        transform: scale(1);
-        color: inherit;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #d7008f;
-    }
-    100% {
-        transform: scale(1);
-        color: inherit;
-    }
-}
-
-
-/* projects on diff devices - WHOLE THING NEEDS EDITING */
 
 
 /* Responsive - Tablets */
@@ -364,7 +110,7 @@
 }
 
 
-/* Responsive - Mobile */
+/* Responsive - Mobile (600px) */
 
 @media (max-width: 600px) {
     .project-containers {
@@ -389,5 +135,217 @@
     .project-buttons {
         flex-direction: column;
         width: 100%;
+    }
+}
+
+
+/* for animated nav-title on hover Farha R Sayed (max-width: 480px) */
+
+@media (max-width: 480px) {
+    .nav-title {
+        font-size: 1.2rem;
+    }
+    .nav-title:hover span {
+        transform: scale(1.1);
+    }
+    /* for animated intro-text2 on hover title Farha R Sayed (max-width: 480px) */
+    .intro-text2 {
+        font-size: 1.2rem;
+    }
+    .intro-text2:hover span {
+        transform: scale(1.1);
+    }
+    /* for all animated titles (max-width: 480px) */
+    .animated-title {
+        font-size: 1.2rem;
+    }
+    .animated-title:hover span {
+        transform: scale(1.1);
+    }
+    /* experience (max-width: 480px) */
+    .exp-title2 {
+        font-size: 1.2rem;
+    }
+    .exp-title2:hover span {
+        transform: scale(1.1);
+    }
+    /* skills title (max-width: 480px) */
+    .skills-title2 {
+        font-size: 1.2rem;
+    }
+    .skills-title2:hover span {
+        transform: scale(1.1);
+    }
+    /* projects title (max-width: 480px) */
+    .project-title2 {
+        font-size: 1.2rem;
+    }
+    .project-title2:hover span {
+        transform: scale(1.1);
+    }
+    /* contact title (max-width: 480px) */
+    .contact-title2 {
+        font-size: 1.2rem;
+    }
+    .contact-title2:hover span {
+        transform: scale(1.1);
+    }
+}
+
+
+/* for the effect on nav-title on first loading the page */
+
+@keyframes scaleInNav {
+    0% {
+        transform: scale(1);
+        color: inherit;
+    }
+    50% {
+        transform: scale(1.2);
+        color: black;
+        /* red shade */
+    }
+    100% {
+        transform: scale(1);
+        color: inherit;
+    }
+}
+
+
+/* for the effect on intro-text2 on first loading the page */
+
+@keyframes scaleInIntro {
+    0% {
+        transform: scale(1);
+        color: inherit;
+        letter-spacing: 2px;
+    }
+    50% {
+        transform: scale(1.3);
+        color: #FF4F00;
+        letter-spacing: 4px;
+    }
+}
+
+
+/* for all animated titles on first loading the page */
+
+@keyframes scaleInAbout {
+    0% {
+        transform: scale(1);
+        color: inherit;
+        letter-spacing: 2px;
+    }
+    50% {
+        transform: scale(1.3);
+        color: #e02440;
+        letter-spacing: 4px;
+    }
+}
+
+
+/* about right side slideshow */
+
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* animation of small arrow */
+
+@keyframes bounceDown {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0) rotate(-45deg);
+    }
+    40% {
+        transform: translateY(6px) rotate(-45deg);
+        /* was 10px */
+    }
+    60% {
+        transform: translateY(3px) rotate(-45deg);
+        /* was 5px */
+    }
+}
+
+
+/* experience */
+
+@keyframes scaleInExperience {
+    0% {
+        transform: scale(1);
+        color: inherit;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #FF4F00;
+        /* blue shade (or whatever you want) */
+    }
+    100% {
+        transform: scale(1);
+        color: inherit;
+    }
+}
+
+
+/* for all animated titles on first loading the page (skills) */
+
+@keyframes scaleInSkills {
+    0% {
+        transform: scale(1);
+        color: inherit;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #e02440;
+        /* blue shade (or whatever you want) */
+    }
+    100% {
+        transform: scale(1);
+        color: inherit;
+    }
+}
+
+
+/* for all animated titles on first loading the page (projects) */
+
+@keyframes scaleInProjects {
+    0% {
+        transform: scale(1);
+        color: inherit;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #31a0f6;
+    }
+    100% {
+        transform: scale(1);
+        color: inherit;
+    }
+}
+
+
+/* for all animated titles on first loading the page (contact) */
+
+@keyframes scaleInContact {
+    0% {
+        transform: scale(1);
+        color: inherit;
+    }
+    50% {
+        transform: scale(1.2);
+        color: #d7008f;
+    }
+    100% {
+        transform: scale(1);
+        color: inherit;
     }
 }
