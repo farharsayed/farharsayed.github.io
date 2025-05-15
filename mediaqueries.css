@@ -95,32 +95,48 @@
     .contact-title2:hover span {
         transform: scale(1.2);
     }
+    #header {
+        position: fixed;
+    }
+    #home,
+    #about,
+    #projects,
+    #skills,
+    #experience,
+    #contact {
+        padding-top: 8rem;
+    }
     /* Show hamburger under 768px */
     .nav-links {
         position: absolute;
-        /* right: 6rem; */
-        /* top: 10vh; */
-        height: calc(100vh - 50vh);
+        top: 100%;
+        left: 0;
+        right: 0;
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
-        width: 100%;
-        gap: 3rem;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-        background-color: white !important;
-        z-index: 9999;
-        position: fixed !important;
+        gap: 2rem;
+        background-color: white;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.7s ease-in-out;
+        z-index: 999;
     }
     .nav-links.active {
         transform: translateX(0);
+        max-height: 40vh;
+        padding: 4rem;
+        /* Adjust as needed */
     }
     .hamburger {
         display: flex;
+        justify-content: center;
     }
     nav {
-        justify-content: space-between;
-        padding: 0 2rem;
+        /* justify-content: space-between;
+        padding: 0 2rem; */
+        position: relative;
+        z-index: 999;
     }
     .footer-nav-link1 {
         flex-direction: column;
