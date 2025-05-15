@@ -28,7 +28,7 @@
         transform: scale(1.2);
     }
     .home-leftside {
-        padding-top: 8rem;
+        /* padding-top: 8rem; */
         max-width: 90%;
     }
     .home-rightside {
@@ -218,6 +218,9 @@
     }
     .pfp {
         padding: 1rem;
+    }
+    .scroll-indicator {
+        display: none;
     }
     /* for all animated titles (max-width: 480px) */
     .animated-title {
