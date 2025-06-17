@@ -59,12 +59,12 @@ function triggerStaggeredAnimation() {
     });
 }
 
-// Run every 3s but only if viewport is below 768px
+// Run every 2s but only if viewport is below 768px
 setInterval(() => {
     if (window.innerWidth <= 768) {
         triggerStaggeredAnimation();
     }
-}, 3000);
+}, 2000);
 
 
 // Animate elements again when they enter viewport (like jumping to #about)
