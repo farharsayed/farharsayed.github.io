@@ -99,7 +99,7 @@ const experienceData = {
         title: "Cybersecurity and Infrastructure Engineer - Gulf Business Machines",
         dates: "Nov 2024 - Present",
         description: [
-            "Implementing and managing Kubernetes infrastructure for enterprise deployments in air-gapped environments",
+            "Implementing and managing Kubernetes infrastructure for air-gapped enterprise environments",
             "Worked with clusters on Nutanix Kubernetes Platform (NKP) with Prism Central and Prism Element",
             "Optimized VMware Tanzu Kubernetes Grid Service on vSphere across light and dark settings",
             "Installed and configured NVIDIA BCM to support Run:ai for efficient GPU utilization by AI/ML workloads",
