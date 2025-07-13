@@ -105,8 +105,7 @@ const experienceData = {
             "Installed and configured NVIDIA BCM to support Run:ai for efficient GPU utilization by AI/ML workloads",
             "Implemented Harbor Registry for artifact management and Veeam Kasten for Kubernetes-native DR",
             "Secured up to 15,000 endpoints and servers using ManageEngine Endpoint Central and Ansible playbooks",
-            "Collaborated with vendors to integrate advanced ZTNA, EPP and PAM solutions",
-            "Coordinated with customers and project managers throughout project lifecycles, adhering to best practices in planning, automation, risk mitigation, and documentation",
+            "Collaborated with vendors to integrate advanced ZTNA, EPP and PAM solutions"
         ],
         image: "./assets/exp-pic1.jpg",
     },
