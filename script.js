@@ -103,7 +103,7 @@ const experienceData = {
             "Worked with clusters on Nutanix Kubernetes Platform (NKP) with Prism Central and Prism Element",
             "Optimized VMware Tanzu Kubernetes Grid Service on vSphere across light and dark settings",
             "Installed and configured NVIDIA BCM to support Run:ai for efficient GPU utilization by AI/ML workloads",
-            "Implemented Harbor Registry for artifact management and Veeam Kasten for Kubernetes-native disaster recovery",
+            "Implemented Harbor Registry for artifact management and Veeam Kasten for Kubernetes-native DR",
             "Secured up to 15,000 endpoints and servers using ManageEngine Endpoint Central and Ansible playbooks",
             "Collaborated with vendors to integrate advanced ZTNA, EPP and PAM solutions",
             "Coordinated with customers and project managers throughout project lifecycles, adhering to best practices in planning, automation, risk mitigation, and documentation",
@@ -116,7 +116,8 @@ const experienceData = {
         description: [
             "Led migration of observability stack (Prometheus, Promtail, Grafana, Loki, Mimir and OTel) to scalable cloud-agnostic microservices on Red Hat OpenShift",
             "Introduced Kubernetes, Helm charts and OpenShift via introductory demos to 20 team members",
-            "Worked alongside team to maintain CentOS/Rocky Linux servers, using Nexus and Vault for artifact and secret management",
+            "Used Nexus and Hashicorp Vault for artifact and secret management",
+            "Customized Docker images to adhere to security standards and meet platform-specific requirements",
             "Learnt about PostgreSQL architecture, GitLab CI/CD, automation using Ansible AWX and Java JMX Exporter to instrument Java apps"
         ],
         image: "./assets/exp-pic2.jpg",
