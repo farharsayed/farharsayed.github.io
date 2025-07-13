@@ -1820,6 +1820,30 @@ a:hover {
     animation-delay: 0.45s;
 }
 
+.contact-title2.animate span:nth-child(10) {
+    animation-delay: 0.50s;
+}
+
+.contact-title2.animate span:nth-child(11) {
+    animation-delay: 0.55s;
+}
+
+.contact-title2.animate span:nth-child(12) {
+    animation-delay: 0.60s;
+}
+
+.contact-title2.animate span:nth-child(13) {
+    animation-delay: 0.65s;
+}
+
+.contact-title2.animate span:nth-child(14) {
+    animation-delay: 0.70s;
+}
+
+.contact-title2.animate span:nth-child(15) {
+    animation-delay: 0.75s;
+}
+
 
 /* end of contact-title2 animate block */
 
@@ -1864,6 +1888,26 @@ a:hover {
 
 .contact-title2 span:nth-child(10) {
     transition-delay: 0.27s;
+}
+
+.contact-title2 span:nth-child(11) {
+    transition-delay: 0.30s;
+}
+
+.contact-title2 span:nth-child(12) {
+    transition-delay: 0.33s;
+}
+
+.contact-title2 span:nth-child(13) {
+    transition-delay: 0.36s;
+}
+
+.contact-title2 span:nth-child(14) {
+    transition-delay: 0.39s;
+}
+
+.contact-title2 span:nth-child(15) {
+    transition-delay: 0.42s;
 }
 
 
